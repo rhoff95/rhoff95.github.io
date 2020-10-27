@@ -1,18 +1,224 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
+
 <head>
+    <!-- META -->
     <meta charset="utf-8">
-    <title>Robert Hoff</title>
-    <!-- Background of favicon is #7ee6dd -->
-    <link rel="icon"
-          type="image/png"
-          href="favicon_io/favicon.ico">
+    <meta name="robots" content="noodp">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- PAGE TITLE -->
+    <title>Rob Hoff</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface%7CArapey&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+
 </head>
+
+
 <body>
-<h1>Hello! I am moving away from Wix and creating this site from scratch.</h1>
-<h1>While you wait, check out a game I made!</h1>
-<iframe frameborder="0" src="https://itch.io/embed/585328?border_width=5" width="560" height="175">
-    <a href="https://robhoff.itch.io/hideandbeak">Hide &amp; Beak by Rob Hoff</a>
-</iframe>
+
+
+<!-- PRELOADER -->
+<div class="preloader">
+
+    <div class="spinner"></div>
+
+</div>
+<!-- /PRELOADER -->
+
+
+<!-- IMAGE CONTAINER -->
+<div class="image-container">
+
+    <div class="background-img"></div>
+
+</div>
+<!-- /IMAGE CONTAINER -->
+
+
+<!-- CONTENT AREA -->
+<div class="content-area">
+
+
+    <!-- CONTENT AREA INNER -->
+    <div class="content-area-inner">
+
+
+        <!-- INTRO -->
+        <section id="intro">
+
+
+            <!-- CONTAINER MID -->
+            <div class="container-mid">
+
+
+                <!-- ANIMATION CONTAINER -->
+                <div class="animation-container animation-fade-down" data-animation-delay="0">
+
+                    <h1>I’m Rob Hoff,</h1>
+
+                </div>
+                <!-- /ANIMATION CONTAINER -->
+
+
+                <!-- ANIMATION CONTAINER -->
+                <div class="animation-container animation-fade-left" data-animation-delay="300">
+
+                    <p class="subline">I make software. At work, I am a full stack engineer.
+                        Outside of work, I make video games.</p>
+
+                </div>
+                <!-- /ANIMATION CONTAINER -->
+
+
+                <!-- ANIMATION CONTAINER -->
+                <div class="animation-container animation-fade-up" data-animation-delay="600">
+
+                    <a href="#work" class="smooth-scroll">Learn More<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
+                </div>
+                <!-- /ANIMATION CONTAINER -->
+
+
+            </div>
+            <!-- /CONTAINER MID -->
+
+
+        </section>
+        <!-- /INTRO -->
+
+        <!-- WORK -->
+        <section id="work">
+
+            <h3 class="headline scroll-animated-from-right">My Work.</h3>
+
+            <!-- SHOWCASE -->
+            <div class="showcase">
+
+                <!-- ITEM -->
+                <div class="item scroll-animated-from-right">
+                    <!-- LINK -->
+                    <a href="https://robhoff.itch.io/hideandbeak" target="_blank">
+                        <!-- INFO -->
+                        <div class="info">
+                            <!-- CONTAINER MID -->
+                            <div class="container-mid">
+                                <h5>Hide & Fish</h5>
+                                <p>Unity game</p>
+                            </div>
+                            <!-- /CONTAINER MID -->
+                        </div>
+                        <!-- /INFO -->
+                        <div class="background-image"
+                             style="background-image: url(assets/img/work/hide-and-beak.gif)"></div>
+                    </a>
+                    <!-- /LINK -->
+                </div>
+                <!-- /ITEM -->
+
+                <!-- ITEM -->
+                <div class="item scroll-animated-from-right">
+                    <!-- LINK -->
+                    <a href="https://robhoff.itch.io/rhoff-ld47" target="_blank">
+                        <!-- INFO -->
+                        <div class="info">
+                            <!-- CONTAINER MID -->
+                            <div class="container-mid">
+                                <h5>Danger Beat</h5>
+                                <p>Unity Game</p>
+                                <p>Ludum Dare 47 Entry</p>
+                            </div>
+                            <!-- /CONTAINER MID -->
+                        </div>
+                        <!-- /INFO -->
+                        <div class="background-image" style="background-image: url(assets/img/work/danger-beat.gif)"></div>
+                    </a>
+                    <!--  /LINK -->
+                </div>
+                <!-- /ITEM -->
+            </div>
+            <!-- /SHOWCASE -->
+
+
+        </section>
+        <!-- /WORK -->
+
+
+        <!-- CONTACT -->
+        <section id="contact">
+
+
+            <h3 class="headline scroll-animated-from-right">Contact Me.</h3>
+
+
+            <!-- CONTACT LIST -->
+            <ul class="contact-list">
+
+                <li class="scroll-animated-from-right">
+                    <i class="fa fa-gamepad" aria-hidden="true"></i>
+                    <a href="https://robhoff.itch.io/">itch.io</a></li>
+                <li class="scroll-animated-from-right">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <a href="https://www.linkedin.com/in/robert-hoff-67866a10b/">linkedin</a>
+                </li>
+
+            </ul>
+            <!-- /CONTACT LIST -->
+
+
+            <!-- CONTACT FORM -->
+            <form id="contact-form" action="assets/php/contact.php" method="post">
+
+
+                <input id="contact-form-name" type="text" name="name" class="form-control scroll-animated-from-right"
+                       placeholder="* Your Name">
+
+                <input id="contact-form-email" type="text" name="email" class="form-control scroll-animated-from-right"
+                       placeholder="* Your Email">
+
+                <!-- PHANTOM ELEMENT ( HONEYPOT CAPTCHA FOR SECURITY ) -->
+                <div class="fhp-input"><input id="contact-form-company" type="text" name="company" class="form-control">
+                </div>
+                <!-- /PHANTOM ELEMENT ( HONEYPOT CAPTCHA FOR SECURITY ) -->
+
+                <textarea id="contact-form-message" name="message" class="form-control scroll-animated-from-right"
+                          placeholder="* Your Message"></textarea>
+
+                <button type="submit" class="form-control scroll-animated-from-right">Send Mail</button>
+
+                <div class="success-message">* The Email was Sent Successfully!</div>
+            </form>
+            <!-- /CONTACT FORM -->
+        </section>
+        <!-- /CONTACT -->
+
+        <!-- FOOTER -->
+        <section id="footer">
+            <p class="scroll-animated-from-right">© 2020 Rob Hoff</p>
+        </section>
+        <!-- /FOOTER -->
+    </div>
+    <!-- /CONTENT AREA INNER -->
+</div>
+<!-- /CONTENT AREA -->
+
+
+<!-- JAVASCRIPTS -->
+<script type="text/javascript" src="assets/js/plugins.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
+
+
 </body>
+
+
 </html>
