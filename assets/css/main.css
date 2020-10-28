@@ -36,8 +36,10 @@ body
     font-weight: 300;
     font-style: normal;
 
-    color: #000;
-    background: #fff;
+    /*color: #000;*/
+    /*background: #fff;  */
+    color: #fff;
+    background: #000;
 
     -webkit-font-smoothing: antialiased;
 }
@@ -54,7 +56,8 @@ h6
 
     letter-spacing: .05em;
 
-    color: #000;;
+    /*color: #000;*/
+    color: #fff;
 }
 
 h1
@@ -141,7 +144,8 @@ a:hover
     width: 100%;
     height: 100%;
 
-    background: #fff;
+    /*background: #fff;*/
+    background: #000;
 }
 
 .preloader.hide-preloader
@@ -172,7 +176,8 @@ a:hover
 
     opacity: 1;
     border-radius: 100%;
-    background-color: #111;
+    /*background-color: #111;*/
+    background-color: #eee;
 }
 
 .preloader.hide-preloader .spinner
@@ -364,7 +369,8 @@ a:hover
          -o-transition: .2s ease;
             transition: .2s ease;
 
-    color: #fff;
+    /*color: #fff;*/
+    color: #000;
     border-radius: 100px;
     background: none;
 }
@@ -382,7 +388,8 @@ a:hover
     content: '';
 
     border-radius: 100px;
-    background: #111;
+    /*background: #111;*/
+    background: #eee;
 }
 
 #intro .container-mid a:after
@@ -400,7 +407,8 @@ a:hover
          -o-transition: .2s ease;
             transition: .2s ease;
 
-    background: #008aff;
+    /*background: #008aff;*/
+    background: #52cc99;
 }
 
 #intro .container-mid a:hover:after
@@ -571,9 +579,11 @@ a:hover
 
     text-align: center;
 
-    color: #fff;
+    /*color: #fff;*/
+    color: #000;
     border-radius: 100px;
-    background: #111;
+    /*background: #111;*/
+    background: #eee;
 }
 
 
@@ -595,7 +605,8 @@ a:hover
     cursor: pointer;
 
     border-radius: 3rem;
-    background: #111;
+    /*background: #111;*/
+    background: #000;
 }
 
 #work .showcase .item:last-child
@@ -618,7 +629,8 @@ a:hover
             transition: .25s ease;
 
     color: #fff;
-    background: #008aff;
+    /*background: #008aff;*/
+    background: #52cc99;
 }
 
 #work .showcase .item:hover .info
@@ -798,6 +810,16 @@ a:hover
     border-radius: 100px;
 }
 
+#contact .contact-list a
+{
+    color: #aaf2ce;
+}
+
+#contact .contact-list a:hover
+{
+    color: #52cc99;
+}
+
 #contact #contact-form
 {
     position: relative;
@@ -937,7 +959,8 @@ a:hover
          -o-transition: .2s ease;
             transition: .2s ease;
 
-    background: #008aff;
+    /*background: #008aff;*/
+    background: #52cc99;
 }
 
 #contact #contact-form button:hover:after
@@ -1045,7 +1068,8 @@ a:hover
          -o-transition: .2s ease;
             transition: .2s ease;
 
-    background: #008aff;
+    /*background: #008aff;*/
+    background: #52cc99;
 }
 
 #footer .social-icons li:hover:after
