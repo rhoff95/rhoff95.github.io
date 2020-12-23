@@ -55,9 +55,9 @@ jQuery(document).ready(function($) {
         scale: 1,
     });
 
-    getImgurSubmissions('assets/img/miniatures/Headless_Footman.png');
-    getImgurSubmissions('assets/img/miniatures/Reaper_familiar_skeleton.png');
-    getImgurSubmissions('assets/img/miniatures/Reaper_familiar_goblin.png');
+    getImgurSubmissions('assets/img/miniatures/Headless_Footman.JPG');
+    getImgurSubmissions('assets/img/miniatures/Reaper_familiar_skeleton.JPG');
+    getImgurSubmissions('assets/img/miniatures/Reaper_familiar_goblin.JPG');
 
     // PORTFOLIO GALLERY
     $('.portfolio a').featherlightGallery({
