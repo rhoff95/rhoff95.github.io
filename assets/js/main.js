@@ -54,4 +54,16 @@ jQuery(document).ready(function($) {
         viewFactor: 0.4,
         scale: 1,
     });
+
+    getImgurSubmissions('assets/img/miniatures/Headless_Footman.png');
+    getImgurSubmissions('assets/img/miniatures/Reaper_familiar_skeleton.png');
+    getImgurSubmissions('assets/img/miniatures/Reaper_familiar_goblin.png');
+
+    // PORTFOLIO GALLERY
+    $('.portfolio a').featherlightGallery({
+        previousIcon: '&#9664;',
+        nextIcon: '&#9654;',
+        galleryFadeIn: 100,
+        galleryFadeOut: 300
+    });
 });
