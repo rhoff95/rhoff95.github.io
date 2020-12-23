@@ -795,8 +795,8 @@ a:hover
 
     position: absolute;
     z-index: 10;
-    top: 0;
-    right: 0;
+    top: -6rem;
+    right: -6rem;
 
     width: 6rem;
     height: 6rem;
@@ -807,14 +807,14 @@ a:hover
     transition: .1s ease;
     text-align: center;
 
-    opacity: 0;
     color: #fff;
     border-radius: 100%;
 }
 
 .portfolio .item:hover i
 {
-    opacity: 1;
+    top: 0;
+    right: 0;
 }
 
 .portfolio .item i:after
@@ -831,7 +831,6 @@ a:hover
 
     border-width: 0 10rem 10rem 0;
     border-style: solid;
-    /*border-color: transparent #d80247 transparent transparent;*/
     border-color: transparent #52cc99 transparent transparent;
 }
 
